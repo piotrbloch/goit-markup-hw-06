@@ -395,6 +395,7 @@ p {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 1;
   background-color: white;
   width: 320px;
   height: 100vh;
@@ -953,6 +954,9 @@ lub
     display: flex;
   }
   .hamburger {
+    display: none;
+  }
+  .menu.mobile.is-open {
     display: none;
   }
 }
