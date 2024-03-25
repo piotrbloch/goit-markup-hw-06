@@ -53,11 +53,7 @@ p {
   pointer-events: none;
 }
 
-.backdrop.is-open {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
-}
+
 
 .modal {
   position: absolute;
@@ -959,6 +955,11 @@ lub
   .menu.mobile.is-open {
     display: none;
   }
+  .backdrop.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
 }
 
 /* PC */
