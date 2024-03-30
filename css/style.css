@@ -311,6 +311,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-top: 48px;
 }
 
 .mobile-li-social {
@@ -380,7 +381,10 @@ p {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding: 24px 0px;
+  padding: 16px 0px;
+  background: transparent;
+  border: 0px;
+  line-height: 0px;
 }
 
 .hamburger .line {
@@ -449,7 +453,7 @@ p {
 }
 
 .container-ap {
-  margin: 0 0;
+  margin-bottom: 72px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -463,25 +467,24 @@ p {
 .header-adress {
   font-style: normal;
 }
+
 .header-adress-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
   color: #434455;
   text-decoration: none;
   /*24.03.05*/
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-adress-mail:hover {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-.header-adress-mail:focus {
   /* font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em; */
+  color: #404bbf;
+}
+.header-adress-mail:focus {
   color: #404bbf;
 }
 .main-sectiona {
@@ -511,13 +514,9 @@ p {
   }
 }
 
-.main-sectionb {
-  padding: 120px 0;
-}
-
 .sectiona-ha {
   font-size: 36px;
-  line-height: 60px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -555,20 +554,13 @@ p {
   background-color: #404bbf;
 }
 .sectionb-hc {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-
-.sectionb-hc {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .sectionb-li-div {
@@ -705,9 +697,9 @@ p {
 }
 
 .listb {
+  gap: 72px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   list-style-type: none;
   justify-content: center;
 }
@@ -771,8 +763,12 @@ lub
 }
 
 .main-sectiond {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.main-sectionb {
+  padding: 96px 0;
 }
 
 .footer {
@@ -848,11 +844,12 @@ lub
 .container-social {
   /* padding-top: 50px; */
   margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .container-form {
   margin: 0 auto;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .fotter-p-form {
@@ -873,7 +870,7 @@ lub
 }
 
 .fotter-input-name {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -996,6 +993,23 @@ lub
   .sectiona-ha {
     font-size: 56px;
     max-width: 496px;
+    line-height: 60px;
+  }
+  .sectionb-hc {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: unset;
+  }
+  .listb {
+    gap: 24px;
+  }
+  .main-sectiond {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .main-sectionb {
+    padding: 120px 0;
   }
 }
 
@@ -1065,5 +1079,10 @@ lub
   .sectiona-ha {
     font-size: 56px;
     max-width: 496px;
+  }
+  .header-adress-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
